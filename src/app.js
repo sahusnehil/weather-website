@@ -31,9 +31,9 @@ app.get('',(req, res) => {
 
 app.get('/about',(req, res) =>{
     res.render('about',{
-        title:'This is about Steve Jobs',
+        title:'This is about Me',
         name:'Snehil Sahu',
-        messageFour:'Steven Paul Jobs ( February 24, 1955 – October 5, 2011) was an American business magnate, industrial designer, investor, and media proprietor. He was the chairman, chief executive officer (CEO), and co-founder of Apple Inc., the chairman and majority shareholder of Pixar, a member of The Walt Disney Companys board of directors following its acquisition of Pixar, and the founder, chairman, and CEO of NeXT. Jobs is widely recognized as a pioneer of the personal computer revolution of the 1970s and 1980s, along with Apple co-founder Steve Wozniak. '
+        messageFour:'This site was created by Snehil Sahu. In this you can get Weather Information about any city. Here I used some other company services to get response. '
     })
 })
 
