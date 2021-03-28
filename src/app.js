@@ -12,6 +12,7 @@ const port = process.env.PORT || 3000
 const publicDirectoryPath = path.join(__dirname, '../public')
 const viewPath = path.join(__dirname,'../templates/views')
 const partialsPath = path.join(__dirname, '../templates/partials')
+
 //Setup of handlebars engine and views location
 app.set('view engine', 'hbs')
 app.set('views',viewPath)
@@ -36,7 +37,7 @@ app.get('/about',(req, res) =>{
     })
 })
 
-app.get('/Help',(req, res) =>{
+app.get('/Help',(req, res) => {
     res.render('Help',{
         helpNeeded:'We all need help to get out of our comfort zone',
         message:'You cant skip Chapters, thats not how Life Works.You have to read every line, meet every character.You wont enjoy all of it, Hell some chapters will make you cry for weeks but you have to keep going.Stories keep the World revolveing,Live yours dont miss out.',
