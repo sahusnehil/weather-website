@@ -38,7 +38,7 @@ app.get('/about',(req, res) =>{
 })
 
 app.get('/Help',(req, res) => {
-    res.render('Help',{
+    res.render('help',{
         helpNeeded:'We all need help to get out of our comfort zone',
         message:'You cant skip Chapters, thats not how Life Works.You have to read every line, meet every character.You wont enjoy all of it, Hell some chapters will make you cry for weeks but you have to keep going.Stories keep the World revolveing,Live yours dont miss out.',
         title:'Help',
